@@ -4,3 +4,12 @@
     margin: 0;
     padding: 0;
 }
+
+:root {
+    --primary-clr: rgba(60, 128, 103, 1);
+    --bg-clr: rgba(242, 235, 227, 1);
+    --dark-clr: rgba(28, 35, 43, 1);
+    --light-clr: rgba(108, 114, 137, 1);
+    --white: rgba(254, 254, 254, 1); 
+    --border-radius: 8px;
+}
