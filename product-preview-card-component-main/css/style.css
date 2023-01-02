@@ -13,3 +13,9 @@
     --white: rgba(254, 254, 254, 1); 
     --border-radius: 8px;
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 7.5% 5%;
+}
