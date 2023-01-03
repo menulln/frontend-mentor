@@ -23,6 +23,7 @@ img {
 .description,
 .sale {
     font-family: 'Montserrat';
+    font-size: var(--font-small);
     color: var(--light-clr);
 }
 
@@ -34,6 +35,7 @@ img {
 .title,
 .price {
     font-family: 'Fraunces';
+    font-size: var(--font-big);
 }
 
 .price {
@@ -51,6 +53,8 @@ img {
 
 button {
     font-family: 'Montserrat';
+    font-size: var(--font-small);
+    font-weight: 700;
     color: var(--white);
     background-color: var(--primary-clr);
 }
