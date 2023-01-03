@@ -7,6 +7,7 @@
 
 :root {
     --primary-clr: rgba(60, 128, 103, 1);
+    --dark-primary-clr: rgb(32, 71, 57);
     --bg-clr: rgba(242, 235, 227, 1);
     --dark-clr: rgba(28, 35, 43, 1);
     --light-clr: rgba(108, 114, 137, 1);
