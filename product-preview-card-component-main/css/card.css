@@ -18,6 +18,7 @@ img {
 
 .tag {
     text-transform: uppercase;
+    letter-spacing: 6px;
 }
 
 .tag,
@@ -31,12 +32,23 @@ img {
 
 .title {
     color: var(--dark-clr);
+    line-height: 2rem;
 }
 
 .title,
 .price {
     font-family: 'Fraunces';
     font-size: var(--font-big);
+}
+
+.description {
+    line-height: 1.5rem;
+}
+
+.price-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
 .price {
