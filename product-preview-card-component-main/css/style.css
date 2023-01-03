@@ -12,6 +12,8 @@
     --light-clr: rgba(108, 114, 137, 1);
     --white: rgba(254, 254, 254, 1); 
     --border-radius: 8px;
+    --font-small: calc(0.75rem + 0.75vw);
+    --font-big: calc(1.5rem + 1.5vw);
 }
 
 body {
