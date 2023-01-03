@@ -22,11 +22,22 @@ img {
 .tag,
 .description,
 .sale {
+    font-family: 'Montserrat';
     color: var(--light-clr);
 }
 
+
 .title {
     color: var(--dark-clr);
+}
+
+.title,
+.price {
+    font-family: 'Fraunces';
+}
+
+.price {
+    color: var(--primary-clr);
 }
 
 .price,
@@ -34,15 +45,12 @@ img {
     display: inline;
 }
 
-.price {
-    color: var(--primary-clr);
-}
-
 .sale {
     text-decoration: line-through;
 }
 
 button {
+    font-family: 'Montserrat';
     color: var(--white);
     background-color: var(--primary-clr);
 }
