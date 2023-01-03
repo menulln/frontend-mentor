@@ -13,8 +13,8 @@ img {
 .card-body {
     display: flex;
     flex-direction: column;
-    gap: 12px;
-    padding: 7.5%;
+    gap: calc(6px + 1vw);
+    padding: calc(6% + 1vw);
     background-color: var(--white);
     border-bottom-left-radius: var(--border-radius);
     border-bottom-right-radius: var(--border-radius);
