@@ -11,4 +11,37 @@ img {
     display: flex;
     flex-direction: column;
     padding: 5%;
+    background-color: var(--white);
+}
+
+.tag {
+    text-transform: uppercase;
+}
+
+.tag,
+.description,
+.sale {
+    color: var(--light-clr);
+}
+
+.title {
+    color: var(--dark-clr);
+}
+
+.price,
+.sale {
+    display: inline;
+}
+
+.price {
+    color: var(--primary-clr);
+}
+
+.sale {
+    text-decoration: line-through;
+}
+
+button {
+    color: var(--white);
+    background-color: var(--primary-clr);
 }
