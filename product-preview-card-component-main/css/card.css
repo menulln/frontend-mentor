@@ -79,6 +79,14 @@ button {
     border-radius: var(--border-radius);
 }
 
+button > span::before {
+    display: inline-block;
+    content: url('../images/icon-cart.svg');
+    position: relative;
+    top: 3px;
+    margin-right: 0.5rem;
+}
+
 button:hover {
     background-color: var(--dark-primary-clr);
 }
