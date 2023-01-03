@@ -1,8 +1,15 @@
+footer {
+    background-color: var(--dark-clr);
+    padding: 2.5%;
+}
+
 .attribution {
+    font-family: 'Montserrat';
     font-size: 11px;
     text-align: center;
+    color: var(--white);
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsl(228, 67%, 62%);
 }
