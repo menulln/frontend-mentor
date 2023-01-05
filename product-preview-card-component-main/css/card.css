@@ -16,7 +16,7 @@ img {
     display: flex;
     flex-direction: column;
     gap: calc(6px + 1vw);
-    padding: calc(6% + 1vw);
+    padding: calc(5% + 1vw);
     background-color: var(--white);
     border-bottom-left-radius: var(--border-radius);
     border-bottom-right-radius: var(--border-radius);
