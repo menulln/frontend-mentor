@@ -99,7 +99,7 @@ button:hover {
 
 @media screen and (min-width: 1024px) {
     :root {
-        --font-small: calc(0.5rem + 0.5vw);
+        --font-small: calc(0.55rem + 0.55vw);
         --font-big: calc(1.25rem + 1.25vw);
     }
 
@@ -111,5 +111,9 @@ button:hover {
 
     .card-body {
         width: 75%;
+    }
+
+    .title {
+        line-height: 2.5rem;
     }
 }
