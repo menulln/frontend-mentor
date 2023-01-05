@@ -98,6 +98,11 @@ button:hover {
 }
 
 @media screen and (min-width: 1024px) {
+    :root {
+        --font-small: calc(0.5rem + 0.5vw);
+        --font-big: calc(1.25rem + 1.25vw);
+    }
+
     .card {
         flex-direction: row;
         max-height: 80%;
