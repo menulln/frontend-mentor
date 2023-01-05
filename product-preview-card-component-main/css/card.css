@@ -96,3 +96,9 @@ button > span::before {
 button:hover {
     background-color: var(--dark-primary-clr);
 }
+
+@media screen and (min-width: 1024px) {
+    .card {
+        flex-direction: row;
+    }
+}
