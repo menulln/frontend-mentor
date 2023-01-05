@@ -103,6 +103,11 @@ button:hover {
         --font-big: calc(1.25rem + 1.25vw);
     }
 
+    img {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: var(--border-radius);
+    }
+
     .card {
         flex-direction: row;
         max-height: 75%;
@@ -113,6 +118,8 @@ button:hover {
         justify-content: space-between;
         padding: calc(2.5% + 1.25vw);
         width: 75%;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: var(--border-radius);
     }
 
     .title {
