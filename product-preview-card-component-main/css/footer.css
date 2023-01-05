@@ -1,11 +1,11 @@
 footer {
     background-color: var(--dark-clr);
-    padding: 2.5%;
+    padding: calc(1% + 0.5vw);
 }
 
 .attribution {
     font-family: 'Montserrat';
-    font-size: 11px;
+    font-size: calc(0.5rem + 0.5vw);
     text-align: center;
     color: var(--white);
 }
