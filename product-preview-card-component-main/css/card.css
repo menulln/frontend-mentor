@@ -5,7 +5,9 @@
 
 img {
     display: block;
-    max-width: 100%;
+    width: 100%;
+    min-height: 100%; 
+    object-fit: cover;
     border-top-left-radius: var(--border-radius);
     border-top-right-radius: var(--border-radius);
 }
